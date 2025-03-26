@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "suburbs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::suburb.suburb"
+    },
+    "TItle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Suburb": {
+      "type": "component",
+      "repeatable": true,
+      "component": "suburbs.suburb-list"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.services-list"
+    },
+    "servicestitle": {
+      "type": "string"
+    },
+    "servicesdescription": {
+      "type": "text"
+    },
+    "suburbtitle": {
+      "type": "string"
+    },
+    "suburbdescription": {
+      "type": "text"
+    },
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "FAQs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faqs.fa-qs"
+    },
+    "faqTitle": {
+      "type": "string"
+    },
+    "faqDescription": {
+      "type": "text"
+    },
+    "faqImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

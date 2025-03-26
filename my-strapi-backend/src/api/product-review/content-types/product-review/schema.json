@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_reviews",
+  "info": {
+    "singularName": "product-review",
+    "pluralName": "product-reviews",
+    "displayName": "Product Reviews"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "totalReviews": {
+      "type": "integer"
+    },
+    "totalRating": {
+      "type": "decimal"
+    },
+    "productImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "defaultText": {
+      "type": "string"
+    }
+  }
+}

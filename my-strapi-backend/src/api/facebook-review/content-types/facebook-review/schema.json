@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "facebook_reviews",
+  "info": {
+    "singularName": "facebook-review",
+    "pluralName": "facebook-reviews",
+    "displayName": "Facebook Reviews"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "totalReviews": {
+      "type": "integer"
+    },
+    "totalRating": {
+      "type": "decimal"
+    },
+    "defaultText": {
+      "type": "string"
+    },
+    "facebookImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

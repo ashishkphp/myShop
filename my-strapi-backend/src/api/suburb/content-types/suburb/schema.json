@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "suburbs",
+  "info": {
+    "singularName": "suburb",
+    "pluralName": "suburbs",
+    "displayName": "Suburb"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

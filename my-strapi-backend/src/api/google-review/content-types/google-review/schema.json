@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "google_reviews",
+  "info": {
+    "singularName": "google-review",
+    "pluralName": "google-reviews",
+    "displayName": "Google Reviews",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "totalReviews": {
+      "type": "integer"
+    },
+    "totalRating": {
+      "type": "decimal"
+    },
+    "defaultText": {
+      "type": "string"
+    },
+    "googleImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

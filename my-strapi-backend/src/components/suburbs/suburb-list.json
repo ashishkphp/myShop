@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_suburbs_suburb_lists",
+  "info": {
+    "displayName": "Suburb List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

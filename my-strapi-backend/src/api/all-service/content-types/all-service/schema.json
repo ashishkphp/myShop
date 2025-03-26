@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "all_services",
+  "info": {
+    "singularName": "all-service",
+    "pluralName": "all-services",
+    "displayName": "All Services"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "servicesectiontitle": {
+      "type": "string"
+    },
+    "servicesectiondescription": {
+      "type": "text"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.services-list"
+    }
+  }
+}
