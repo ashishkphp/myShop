@@ -1,0 +1,49 @@
+Your application was created!
+Available commands in your project:
+
+Start Strapi in watch mode. (Changes in Strapi project files will trigger a server restart)
+npm run develop
+
+Start Strapi without watch mode.
+npm run start
+
+Build Strapi admin panel.
+npm run build
+
+Deploy Strapi project.
+npm run deploy
+
+Display all available commands.
+npm run strapi
+
+To get started run
+
+cd /home/n-135/Downloads/AshishKacha-2025/appdev/my-strapi-backend
+npm run develop
+
+    Run   Running your Strapi application
+
+
+--------------------------------
+Nextjs
+--------------------------------
+cd Downloads/AshishKacha-2025/appdev/my-nextjs-app
+npm run dev
+--------------------------------
+Strapi
+--------------------------------
+cd Downloads/AshishKacha-2025/appdev/my-strapi-backend
+npm run develop
+
+
+-------------------------------
+1)strapi.io
+2)nodejs.dev
+2)tailblocks
+
+
+https://www.youtube.com/watch?v=I3BuXKQjZiI
+https://www.youtube.com/watch?v=CB3pEMl9TOA
+-------------------------------
+
+---------------------->
