@@ -6,7 +6,3 @@ module.exports = {
     return config;
   },
 };
-module.exports = {
-  basePath: '/my-shop',
-  trailingSlash: true, 
-};
